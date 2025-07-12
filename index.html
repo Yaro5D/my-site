@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yaroslav's Plumbing Services - Professional Plumber in Oahu, Hawaii</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hero-bg {
+            background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-3">
+                    <img src="./assets/logo.png" alt="Yaroslav's Plumbing Services" class="h-10 w-10">
+                    <div>
+                        <h1 class="text-xl font-bold text-gray-900">Yaroslav's Plumbing</h1>
+                        <p class="text-sm text-orange-600">Professional Services</p>
+                    </div>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-blue-600 font-medium">Home</a>
+                    <a href="#services" class="text-gray-700 hover:text-blue-600 font-medium">Services</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium">About</a>
+                    <a href="#reviews" class="text-gray-700 hover:text-blue-600 font-medium">Reviews</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600 font-medium">Contact</a>
+                </nav>
+                <div class="flex items-center space-x-4">
+                    <a href="tel:2539211647" class="text-blue-600 font-semibold">(253) 921-1647</a>
+                    <button onclick="scrollToContact()" class="bg-orange-600 text-white px-4 py-2 rounded-md hover:bg-orange-700 transition-colors">Get Quote</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-4">
+                <span class="text-yellow-300">🌺</span> Serving Oahu with Aloha Spirit
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                Professional Plumbing Services in <span class="text-blue-300">Oahu, Hawaii</span>
+            </h1>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">
+                Fast, reliable, and affordable plumbing solutions. From emergency repairs to complete installations, we keep your pipes flowing with the spirit of Aloha.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="tel:2539211647" class="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 transition-colors font-semibold">
+                    📞 Call Now: (253) 921-1647
+                </a>
+                <button onclick="scrollToServices()" class="border-2 border-white text-white px-8 py-3 rounded-md hover:bg-white hover:text-blue-600 transition-colors font-semibold">
+                    View Services
+                </button>
+            </div>
+            <div class="flex justify-center space-x-8 mt-12 text-sm">
+                <div class="flex items-center">
+                    <span class="text-green-400 mr-2">✓</span> Licensed & Insured
+                </div>
+                <div class="flex items-center">
+                    <span class="text-green-400 mr-2">✓</span> 24/7 Available
+                </div>
+                <div class="flex items-center">
+                    <span class="text-green-400 mr-2">✓</span> 5.0 Rating
+                </div>
+                <div class="flex items-center">
+                    <span class="text-green-400 mr-2">✓</span> 8+ Years Experience
+                </div>
+                <div class="flex items-center">
+                    <span class="text-green-400 mr-2">✓</span> Trusted by hundreds
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Plumbing Services</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    From emergency repairs to complete installations, we provide comprehensive plumbing solutions for residential and commercial properties across Oahu.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg card-hover border">
+                    <div class="text-blue-600 text-4xl mb-4">🔧</div>
+                    <h3 class="text-xl font-semibold mb-3">Faucet Repair & Replacement</h3>
+                    <p class="text-gray-600">Kitchen and bathroom faucet installation, repair, and replacement services</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg card-hover border">
+                    <div class="text-blue-600 text-4xl mb-4">🚽</div>
+                    <h3 class="text-xl font-semibold mb-3">Toilet Installation & Repair</h3>
+                    <p class="text-gray-600">Complete toilet installation, repair, and maintenance services</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg card-hover border">
+                    <div class="text-blue-600 text-4xl mb-4">⚡</div>
+                    <h3 class="text-xl font-semibold mb-3">Water Heater Services</h3>
+                    <p class="text-gray-600">Standard and tankless water heater installation, repair, and maintenance</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg card-hover border">
+                    <div class="text-blue-600 text-4xl mb-4">🛡️</div>
+                    <h3 class="text-xl font-semibold mb-3">Drain Cleaning</h3>
+                    <p class="text-gray-600">Professional drain cleaning for sinks, tubs, and showers</p>
+                </div>
+            </div>
+
+            <!-- Emergency Services -->
+            <div class="mt-16 bg-blue-50 p-8 rounded-lg">
+                <div class="text-center">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Emergency Plumbing Services</h3>
+                    <p class="text-gray-600 mb-6">
+                        Plumbing emergencies don't wait for business hours. That's why we're available 24/7 to handle burst pipes, clogged drains, and other urgent plumbing issues.
+                    </p>
+                    <div class="grid md:grid-cols-3 gap-4 mb-8">
+                        <div class="flex items-center justify-center">
+                            <span class="text-green-600 mr-2">✓</span> Same-day service available
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <span class="text-green-600 mr-2">✓</span> Fair pricing, no surprises
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <span class="text-green-600 mr-2">✓</span> Clean workspace guaranteed
+                        </div>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg inline-block">
+                        <div class="text-blue-600 text-4xl mb-4">🕐</div>
+                        <h4 class="text-xl font-semibold mb-2">24/7 Emergency Service</h4>
+                        <p class="text-gray-600 mb-4">Ready to help when you need us most</p>
+                        <a href="tel:2539211647" class="bg-red-600 text-white px-6 py-3 rounded-md hover:bg-red-700 transition-colors font-semibold">
+                            Emergency Call
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">About Yaroslav's Plumbing Services</h2>
+                <div class="max-w-4xl mx-auto">
+                    <p class="text-xl text-gray-600 mb-6">
+                        Aloha! Since 2017, I've been providing professional plumbing services with 8 years of experience, including 6 months in California, now proudly serving Oahu. I specialize in fixing leaks, unclogging drains, installing water heaters, and more.
+                    </p>
+                    <p class="text-xl text-gray-600">
+                        My small team of 2 ensures high-quality work, clear pricing, and a clean workspace. Ready to solve your plumbing issues with aloha—contact me for a free estimate!
+                    </p>
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="text-blue-600 text-4xl mb-4">👥</div>
+                    <h3 class="text-xl font-semibold mb-2">2 Employees</h3>
+                    <p class="text-gray-600">Small team, personal service</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="text-orange-600 text-4xl mb-4">🏆</div>
+                    <h3 class="text-xl font-semibold mb-2">8 Years</h3>
+                    <p class="text-gray-600">In business</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="text-green-600 text-4xl mb-4">📍</div>
+                    <h3 class="text-xl font-semibold mb-2">Service Area</h3>
+                    <p class="text-gray-600">Serving Waialua, Pearl City, and all of Oahu, Hawaii</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <div class="text-blue-600 text-4xl mb-4">🕐</div>
+                    <h3 class="text-xl font-semibold mb-2">Business Hours</h3>
+                    <p class="text-gray-600">Available 24/7 for emergency services<br>Regular hours: Monday - Sunday, 12:00 AM - 11:59 PM</p>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <div class="bg-white p-6 rounded-lg shadow-lg inline-block">
+                    <h3 class="text-xl font-semibold mb-4">Payment Methods</h3>
+                    <p class="text-gray-600">Cash, Check, PayPal, Venmo, Zelle</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What Our Customers Say</h2>
+                <div class="flex justify-center items-center mb-4">
+                    <div class="flex text-yellow-400 text-2xl">⭐⭐⭐⭐⭐</div>
+                    <span class="ml-2 text-xl font-semibold">5.0</span>
+                    <span class="ml-2 text-gray-600">(8 reviews)</span>
+                </div>
+                <p class="text-xl text-gray-600">
+                    Customers rated us highly for professionalism, work quality, and responsiveness
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <div class="flex text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
+                    <h4 class="font-semibold mb-2">Serhii B.</h4>
+                    <p class="text-sm text-gray-600 mb-3">Water Heater Installation</p>
+                    <p class="text-gray-700">"I booked a water heater installation through Thumbtack and I'm very satisfied with the work! The technician arrived on time and did everything carefully and professionally."</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <div class="flex text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
+                    <h4 class="font-semibold mb-2">Marc W.</h4>
+                    <p class="text-sm text-gray-600 mb-3">Toilet Replacement</p>
+                    <p class="text-gray-700">"Yaroslav came to my house when he said he would. Was very quick to finish the job replacing our old toilet. Was very nice and professional."</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <div class="flex text-yellow-400 mb-4">⭐⭐⭐⭐⭐</div>
+                    <h4 class="font-semibold mb-2">Cindy S.</h4>
+                    <p class="text-sm text-gray-600 mb-3">Faucet Installation</p>
+                    <p class="text-gray-700">"I had a great first experience with Yaro. He came on the same day exactly on time. He got the job done of changing my kitchen faucet and fixing something in my bathroom sink."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 hero-bg text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Fix Your Plumbing Issues?</h2>
+            <p class="text-xl mb-12">Contact us today for a free estimate. We're here to help with all your plumbing needs!</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Call Us -->
+                <div class="bg-white text-gray-900 p-8 rounded-lg">
+                    <div class="text-blue-600 text-4xl mb-4">📞</div>
+                    <h3 class="text-xl font-semibold mb-4">Call Us</h3>
+                    <p class="text-2xl font-bold text-blue-600 mb-2">(253) 921-1647</p>
+                    <p class="text-gray-600 mb-6">Available 24/7 for emergencies</p>
+                    <a href="tel:2539211647" class="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors font-semibold w-full block">
+                        Call Now
+                    </a>
+                </div>
+                
+                <!-- Email Us -->
+                <div class="bg-white text-gray-900 p-8 rounded-lg">
+                    <div class="text-orange-600 text-4xl mb-4">📧</div>
+                    <h3 class="text-xl font-semibold mb-4">Email Us</h3>
+                    <p class="text-xl font-semibold text-orange-600 mb-2">Get a Free Quote</p>
+                    <p class="text-gray-600 mb-6">Send us details about your plumbing needs</p>
+                    <a href="mailto:oahuplumbers@gmail.com?subject=Plumbing Service Request&body=Hello, I need help with my plumbing. Please contact me to discuss my needs and provide a free estimate." class="bg-green-600 text-white px-6 py-3 rounded-md hover:bg-green-700 transition-colors font-semibold w-full block">
+                        Send Email
+                    </a>
+                </div>
+                
+                <!-- Service Area -->
+                <div class="bg-white text-gray-900 p-8 rounded-lg">
+                    <div class="text-green-600 text-4xl mb-4">📍</div>
+                    <h3 class="text-xl font-semibold mb-4">Service Area</h3>
+                    <p class="text-xl font-semibold text-green-600 mb-2">Oahu, Hawaii</p>
+                    <p class="text-gray-600 mb-6">Waialua, Pearl City, and surrounding areas</p>
+                    <button onclick="alert('We serve all of Oahu including Waialua, Pearl City, Honolulu, Kailua, Kaneohe, and surrounding areas. Contact us to confirm service in your specific location!')" class="border-2 border-green-600 text-green-600 px-6 py-3 rounded-md hover:bg-green-50 transition-colors font-semibold w-full">
+                        View Coverage
+                    </button>
+                </div>
+            </div>
+            
+            <div class="mt-16">
+                <h3 class="text-2xl font-bold mb-4">Let's Fix Those Pipes and Keep the Aloha Flowing!</h3>
+                <p class="text-blue-100 mb-8">Mahalo for choosing Yaroslav's Plumbing Services</p>
+                <a href="mailto:oahuplumbers@gmail.com?subject=Free Estimate Request&body=Hello, I would like to request a free estimate for plumbing services. Please contact me to discuss my needs." class="bg-orange-600 text-white px-8 py-4 rounded-md hover:bg-orange-700 transition-colors font-semibold text-lg">
+                    📞 Get Your Free Estimate Today
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <img src="./assets/logo.png" alt="Yaroslav's Plumbing Services" class="h-10 w-10">
+                        <div>
+                            <h3 class="text-lg font-bold">Yaroslav's Plumbing</h3>
+                            <p class="text-sm text-gray-400">Professional Services</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-4">Professional plumbing services in Oahu, Hawaii. Licensed, insured, and ready to serve with Aloha spirit.</p>
+                    <div class="flex space-x-4">
+                        <span class="bg-green-600 text-white px-2 py-1 rounded text-xs">Licensed</span>
+                        <span class="bg-blue-600 text-white px-2 py-1 rounded text-xs">Insured</span>
+                        <span class="bg-orange-600 text-white px-2 py-1 rounded text-xs">24/7 Available</span>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-2">
+                        <p class="text-gray-400">📞 (253) 921-1647</p>
+                        <p class="text-gray-400">📧 oahuplumbers@gmail.com</p>
+                        <p class="text-gray-400">📍 Serving all of Oahu, Hawaii</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Emergency Plumbing</li>
+                        <li>Faucet Repair & Installation</li>
+                        <li>Toilet Services</li>
+                        <li>Water Heater Services</li>
+                        <li>Drain Cleaning</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 Yaroslav's Plumbing Services. All rights reserved. Serving Oahu with Aloha Spirit.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToContact() {
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function scrollToServices() {
+            document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
